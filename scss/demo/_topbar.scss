@@ -1,0 +1,36 @@
+
+/* ----------------------------------------------------------------
+
+	topbar.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for top bar. Thanks!
+-----------------------------------------------------------------*/
+
+
+#top-bar {
+	background-color: $secondary;
+	position: relative;
+	height: $topbar-height;
+	line-height: $topbar-line-height;
+	font-size: 0.75rem;
+
+	a {		
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		line-height: $topbar-line-height;			
+
+		&:hover {			
+			font-weight: 700;
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Top Login
+-----------------------------------------------------------------*/
+

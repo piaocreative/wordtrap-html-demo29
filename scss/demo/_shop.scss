@@ -1,0 +1,203 @@
+
+/* ----------------------------------------------------------------
+
+	shop.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Shop
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for shop pages. Thanks!
+-----------------------------------------------------------------*/
+
+
+/* Category
+-----------------------------------------------------------------*/
+.news {
+	margin-bottom: 1.875rem;
+	position: relative;
+
+	&:hover {
+		.news-image {
+			position: relative;
+			&::after {
+				opacity: 50%;
+			}
+		}
+	}
+
+	.news-image {
+		position: relative;
+
+		&::after {
+			@include transition(all 0.3s ease-in-out);
+			
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			opacity: 20%;
+		}
+	}
+
+	.news-info {
+		position: absolute;
+		left: 0;
+		bottom: 3.5rem;
+		margin-left: 2.2rem;
+		margin-right: 4rem;
+
+		.news-detail {
+			font-family: $heading-font;
+			font-size: $h3-font-size;
+			line-height: 1.5;
+			color: white;
+			font-weight: 400;
+		}
+
+		.news-more {
+			font-family: $body-font;
+			font-size: 1rem;
+			line-height: 1;
+			color: white;
+			font-weight: 300;
+			margin-bottom: 0;
+			@include transition(all 0.3s ease-in-out);
+
+			&:hover {
+				color: $body-color;
+			}
+		}
+	}
+}
+
+
+/* Product
+-----------------------------------------------------------------*/
+.product {
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.img-icon {
+		position: relative;
+
+		.new-text {
+			position: absolute;
+			bottom: 0;
+			padding: 0 1.78rem 2.06rem 1.78rem;
+			width: 100%;
+		}
+
+		.right-icon {
+			position: absolute;
+			top: 0.984rem;
+			right: 1.031rem;
+			font-size: 1.218rem;
+			color: #fff;
+		}
+	
+		.left-icon {
+			position: absolute;
+			top: 0.984rem;
+			left: 1.125rem;
+			font-family: $heading-font;
+			font-size: $h6-font-size;
+			color: #fff;
+		}
+	}
+
+	.product-details {
+		margin-top: 1.781rem;
+	}
+
+	.product-non-rating {
+		font-family: $heading-font;
+		font-size: $h4-font-size;
+		line-height: 1;
+		text-decoration: line-through;
+		color: #dddddd;
+		margin-bottom: 0;
+		margin-right: 1.25rem;
+	}
+
+	.product-rating {
+
+		i {
+			color: $theme-color;
+
+			&.empty {
+				color: #d0d0d0;
+			}
+		}
+	}
+
+	.circle-rate {
+		font-family: $body-font;
+		font-size: $h6-font-size;
+		color: $third-color;
+		line-height: 2.3;
+		width: 2.203rem;
+		height: 2.203rem;
+		border: 0.0468rem solid $theme-color;
+		border-radius: 100%;
+		text-align: center;
+		margin-right: 0.797rem;
+	}
+}
+
+.ads {
+	position: relative;
+	display: block;
+
+	.ads-img {
+		width: 100%;
+	}
+
+	.discount-text {
+		position: absolute;
+		top: 0;
+		padding: 0.5rem 0.5rem 0 0rem;
+		width: 100%;
+
+		@include media-breakpoint-up(sm) {
+			padding: 2.453rem 20rem 0 4.453rem;
+		}
+
+		@include media-breakpoint-up(xxl) {
+			padding: 4.453rem 23rem 0 4.453rem;
+		}
+	}
+
+	.emotion-text {
+		position: absolute;
+		top: 0;
+		padding: 4.453rem 2.953rem 0 2.953rem;
+		width: 100%;
+	}
+
+	.ads-content {
+		position: absolute;
+		top: 4rem;
+		left: 3.5rem;
+		padding-right: 3rem;
+
+		h2 {
+			font-size: 4rem;
+			font-family: $heading-font;
+			font-weight: 400;
+			color: $heading-color;
+			margin-bottom: 1.5rem;
+		}
+	}
+}

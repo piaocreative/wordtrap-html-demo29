@@ -1,0 +1,263 @@
+
+/* ----------------------------------------------------------------
+
+	header.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Header
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for header. Thanks!
+-----------------------------------------------------------------*/
+
+
+#header {
+	position: relative;	
+
+	// Transparent header
+	&.transparent-header {
+		background-color: $third-color;
+		z-index: 199;
+
+		@include media-breakpoint-up(xl) {
+			background-color: transparent;
+		}
+		& + #banner {
+			@include media-breakpoint-up(xl) {
+				top: -$header-height;
+				margin-bottom: -$header-height;
+			}
+		}
+	}
+}
+
+/* ----------------------------------------------------------------
+	Sticky Header
+-----------------------------------------------------------------*/
+
+#header-wrap {
+	padding-left: 2rem;
+	padding-right: 2rem;
+
+	@include media-breakpoint-up(sm) {
+		padding-left: 3.28125rem;
+		padding-right: 3.28125rem;
+	}
+}
+
+/* ----------------------------------------------------------------
+	Logo
+-----------------------------------------------------------------*/
+
+.navbar-brand {
+
+	@include media-breakpoint-up(xl) {
+		margin-right: 10rem;
+		padding: 1.875rem 0 1.3125rem 0;
+	}
+
+	@include media-breakpoint-up(xxl) {
+		margin-right: 21rem;
+	}
+
+	img {
+		width: 6.46875rem;
+		height: 2.0625rem;
+	}
+}
+
+/* ----------------------------------------------------------------
+	Primary Menu
+-----------------------------------------------------------------*/
+
+#primary-menu {
+	.nav-link {
+		color: $primary-menu-font-color;
+		font-family: $primary-menu-font;
+		font-size: $primary-menu-font-size;
+		font-weight: $primary-menu-font-weight;		
+		letter-spacing: $primary-menu-font-spacing;
+		text-transform: $primary-menu-font-tt;
+
+		@include media-breakpoint-up(xl) {
+			line-height: 1;
+			padding: $primary-menu-padding 1.175rem;
+		}
+	}
+
+	.nav-item {
+		&.current,
+		&:hover {
+			a {
+				color: $body-color;
+			}
+		}
+	}
+}
+
+/* ----------------------------------------------------------------
+	Mega Menu
+-----------------------------------------------------------------*/
+
+// Please ignore mega menu now 
+
+
+/* ----------------------------------------------------------------
+	Top Buttons
+-----------------------------------------------------------------*/
+
+
+#top-btns {
+	// @media (min-width: 1200px) {
+	// 	padding-top: 5rem;
+	// 	padding-bottom: 0.75rem;
+	// }
+
+	.nav-item {
+		margin-right: 1rem;
+
+		@media (min-width: 1200px) {
+			margin-right: 0;
+		}
+	}
+
+	.nav-link {
+		color: $topbar-color;		
+		font-size: $top-btn-font-size;	
+		line-height: 1;
+
+		@media (min-width: 1200px) {
+			padding: 0 0 0 1.6875rem;
+		}
+
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Top Links
+-----------------------------------------------------------------*/
+
+#top-links {
+	.nav-item {			
+		@include media-breakpoint-up(xl) {
+			padding-right: 1.875rem;
+		}
+	}
+
+	a.nav-link {
+		color: $topbar-color;
+		display: block;
+		font-size: 0.75rem;	
+		padding: 0;
+
+		&:hover {
+			color: $topbar-hover-color;
+		}
+	}
+
+	.dropdown-toggle {
+		&::after {
+			margin-left: .5156em;
+			color: #808080;
+		}
+	}
+
+	.dropdown-menu {
+		background: $white;
+		border: 0;
+		top: $topbar-line-height;
+		left: 0;
+		width: 100%;		
+		margin: 0;
+		border-top: 3px solid $theme-color;
+		@include border-radius(0);
+		@include box-shadow(0 0 5px -1px rgba($black, 0.2));
+
+		@include media-breakpoint-up(xl) {
+			width: 8.75rem;
+		}
+
+		a.dropdown-item {
+			color: $heading-color;
+			height: 2.25rem;
+			line-height: 2.25rem;
+			font-size: 0.75rem;				
+			padding: 0 0.75rem;
+
+			&:hover {
+				color: $theme-color;
+			}
+		}
+
+		img {
+			display: inline-block;
+			position: relative;
+			top: -1px;
+			width: 1rem;
+			height: 1rem;
+			margin-right: 0.25rem;
+		}
+	}
+
+	.top-search {
+		margin-left: -0.5rem;
+
+		@include media-breakpoint-up(xl) {
+			margin-left: 0.5rem;
+		}
+
+		@include media-breakpoint-up(xxl) {
+			margin-left: 2.8125rem;
+		}
+
+		span {
+			background: transparent !important;
+			color: #808080;
+			font-size: $h5-font-size;
+		}
+
+		input {
+			background: transparent !important;
+			font-family: $body-font;
+			caret-color: white;
+			width: auto;
+			color: white;
+			width: 4.65rem;
+		}
+	}
+}
+
+
+
+/* ----------------------------------------------------------------
+	Top Search
+-----------------------------------------------------------------*/
+
+
+
+
+/* ----------------------------------------------------------------
+	Top Cart
+-----------------------------------------------------------------*/
+
+
+
+
+/* ----------------------------------------------------------------
+	Top Account
+-----------------------------------------------------------------*/
+
+
+
+
+
+

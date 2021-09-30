@@ -1,0 +1,141 @@
+
+/* ----------------------------------------------------------------
+
+	widgets.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Widgets
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for widgets. Thanks!
+-----------------------------------------------------------------*/
+
+
+.widget {
+
+	.widget-social {
+		span {
+			background-color: #1c1c1c;
+			display: inline-block;
+			width: 2.953rem;
+			height: 2.953rem;
+			text-align: center;
+			vertical-align: middle;
+			color: #faf7fa !important;
+			margin-left: 0.984rem;
+
+			@include border-radius(50%);
+		}
+		
+		&:hover {	
+			span {
+				background-color: $theme-color;
+				color: $white;
+				@include transition(all 0.3s ease-in-out);
+			}		
+		}
+
+		i {
+			line-height: 2.953rem;
+		}
+	}
+
+	&.widget-contact {
+
+		.widget-content {
+
+			.widget-link {
+				font-family: $body-font;
+				font-size: 1rem;
+				color: #f4f4f4;
+				@include transition(all 0.3s ease-in-out);
+
+				&:hover {
+					color: $theme-color;
+				}
+			}
+
+			&.widget-left {
+				text-align: center;
+				margin-bottom: 2rem;
+
+				@include media-breakpoint-up(sm) {
+					text-align: center;
+					margin-bottom: 0;
+				}
+
+				@include media-breakpoint-up(md) {
+					text-align: left;
+					margin-bottom: 0;
+				}
+			}
+
+			&.widget-right {
+				text-align: center;
+				margin-top: 2rem;
+
+				@include media-breakpoint-up(sm) {
+					text-align: center;
+					margin-top: 0;
+				}
+
+				@include media-breakpoint-up(md) {
+					text-align: right;
+					margin-top: 0;
+				}
+			}
+
+			a {
+				h3 {
+					@include transition(all 0.3s ease-in-out);
+				}
+				p {
+					color: #535353;
+
+					@include transition(all 0.3s ease-in-out);
+				}
+
+				&:hover {
+					h3 {
+						color: $theme-color !important;
+					}
+
+					p {
+						color: #acacac !important;
+					}
+				}
+			}
+		}
+	}
+
+	// Widget - Payments
+	&.widget-payment {
+		.payments {
+			display: flex;
+			justify-content: center;
+	
+			@include media-breakpoint-up(md) {
+				justify-content: flex-start;
+			}
+
+			.payment-icon {
+				text-align: center;
+				margin-right: 0.5625rem;
+				width: 4.78125rem;
+				background-color: #fff;
+				
+				img {
+					width: 4.78125rem;
+				}
+			}
+		}
+	}
+}
+
+/* Widget - Products
+-----------------------------------------------------------------*/

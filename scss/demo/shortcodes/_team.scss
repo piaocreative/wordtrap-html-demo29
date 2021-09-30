@@ -1,0 +1,53 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: team.scss
+
+-----------------------------------------------------------------------------------*/
+
+.team {
+	position: relative;
+
+	.team-info {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		opacity: 1;
+		padding-left: 0;
+		margin-bottom: 3.25rem;
+		background-color: transparent;
+		font-family: $body-font;
+		transition: all 0.3s ease-in-out;
+		text-align: center;
+
+		@include media-breakpoint-up(lg) {
+			opacity: 0;
+			text-align: left;
+			padding-left: 1.5rem;
+		}
+
+		.team-name {
+			font-size: 1.5rem;
+			color: white;
+			line-height: 1.5;
+			font-weight: 400;
+			font-family: $heading-font;
+		}
+
+		.team-detail {
+			font-size: 1rem;
+			color: $body-color;
+			line-height: 1;
+			margin-bottom: 0;
+			font-weight: 300;
+			font-family: $body-font;
+		}
+	}
+
+	&:hover {
+		.team-info {
+			opacity: 1;
+		}
+	}
+}
