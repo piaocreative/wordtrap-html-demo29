@@ -38,7 +38,7 @@
 
         <!-- Header
         ============================================= -->
-        <header id="header" class="transparent-header">
+        <header id="header" class="bg-dark">
 
             <div id="header-wrap">
 
@@ -53,7 +53,7 @@
                         </a>
 
                         <!-- Navbar -->
-                        <div class="top-btn-bar">
+                        <div class="d-flex w-100 pb-4 align-items-center pe-5">
 
                             <!-- Top Links
                             ============================================= -->
@@ -109,7 +109,7 @@
                                 <span class="navbar-toggler-icon"></span>
                         </button> -->
                                                 
-                        <button class="btn navbar-btn toggle-btn" type="button"><img src="images/toggle_btn.png" alt="toggle_img" class="img_fluid"></button>
+                        <button class="btn toggle-btn" type="button"><img src="images/toggle_btn.png" alt="toggle_img" class="img_fluid"></button>
                         
                     </div>
 
@@ -118,16 +118,6 @@
             </div>
 
         </header><!-- #header -->
-        
-        <!-- Banner
-		============================================= -->
-        <section id="banner">
-
-            <div class="container-fluid px-0">
-                <img src="images/banner/home-banner.png" alt="banner" class="img-fluid">
-            </div>
-
-		</section><!-- #banner -->
 
         <!-- Content
 		============================================= -->
@@ -135,42 +125,104 @@
 
             <div class="content-wrap">
 
-                <!-- top_logos
+                <!-- Banner
                 ============================================= -->
-                <div class="section-margin-bottom">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="top_logos">
-                                    <div class="logo-item"><img src="images/logos/logo_top_1.png" alt="Logo Image" class="img-fluid"></div>
-                                    <div class="logo-item"><img src="images/logos/logo_top_2.png" alt="Logo Image" class="img-fluid"></div>
-                                    <div class="logo-item"><img src="images/logos/logo_top_3.png" alt="Logo Image" class="img-fluid"></div>
-                                    <div class="logo-item"><img src="images/logos/logo_top_4.png" alt="Logo Image" class="img-fluid"></div>
-                                    <div class="logo-item"><img src="images/logos/logo_top_5.png" alt="Logo Image" class="img-fluid"></div>
-                                    <div class="logo-item"><img src="images/logos/logo_top_6.png" alt="Logo Image" class="img-fluid"></div>
-                                    <div class="logo-item"><img src="images/logos/logo_top_7.png" alt="Logo Image" class="img-fluid"></div>
-                                    <div class="logo-item"><img src="images/logos/logo_top_8.png" alt="Logo Image" class="img-fluid"></div>
+                <section id="banner">
+                    <img src="images/banner/home-banner.png" alt="banner" class="img-fluid">
+
+                </section><!-- #banner -->
+
+                <!-- Fbox
+                ============================================= -->
+                <div class="section pt-0">
+
+                    <div class="container-fluid p-0">
+
+                        <div class="row g-0">
+                            <div class="col">
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/logos/logo_top_1.png" alt="">
+                                    </div>
                                 </div>
                             </div>
+                            
+                            <div class="col">
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/logos/logo_top_2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/logos/logo_top_3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/logos/logo_top_4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/logos/logo_top_5.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/logos/logo_top_6.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/logos/logo_top_7.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/logos/logo_top_8.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                </div>
+
+                </div><!-- Fbox -->
 
                 <!-- Fetured Products
                 ============================================= -->
-                <div class="section-margin-bottom">
+                <div class="section pt-0">
                     <div class="container">
-                        <h2 class="heading-font text-title lh-1 text-capitalize mb-5 pb-3 text-xl-center">fetured products</h2>
+                        <h2 class="lh-1 text-capitalize mb-5 pb-3">fetured products</h2>
                         <div class="row">
                             <div class="col-xl-4">
                                 <div class="row">
                                     <div class="col-md-6 col-xl-12">
-                                        <div class="product d-flex flex-row justify-content-center mb-product">
-                                            <div class="img-icon">
+                                        <div class="product d-flex justify-content-center gap-4">
+                                            <div class="product-image">
                                                 <img src="images/shop/featured_product_1.png" alt="New">
-                                                <div class="right-icon"><i class="far fa-heart"></i></div>
+                                                <a class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                             </div>
-                                            <div class="product-details mt-0 ps-product">
+                                            <div class="product-details mt-0">
                                                 <div class="product-rating">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -178,27 +230,26 @@
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star empty"></i>
                                                 </div>
-                                                <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
-                                                <div class="d-flex align-items-center mt-3 mb-base">
-                                                    <p class="circle-rate mb-0">10</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">11</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">12</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">13</p>
-        
+                                                <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                                <div class="product-info d-flex align-items-center mt-3">
+                                                    <a class="active mb-0">10</a>
+                                                    <a class="me-2 pe-1">11</a>
+                                                    <a class="me-2 pe-1">12</a>
+                                                    <a class="me-2 pe-1">13</a>
                                                 </div>
                                                 <div class="d-flex align-items-center">
-                                                    <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                                    <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                                    <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                                    <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xl-12">
-                                        <div class="product d-flex flex-row justify-content-center mb-product">
-                                            <div class="img-icon">
+                                        <div class="product d-flex justify-content-center gap-4">
+                                            <div class="product-image">
                                                 <img src="images/shop/featured_product_2.png" alt="New">
                                             </div>
-                                            <div class="product-details mt-0 ps-product">
+                                            <div class="product-details mt-0">
                                                 <div class="product-rating">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -206,27 +257,26 @@
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star empty"></i>
                                                 </div>
-                                                <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
-                                                <div class="d-flex align-items-center mt-3 mb-base">
-                                                    <p class="circle-rate mb-0">10</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">11</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">12</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">13</p>
-        
+                                                <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                                <div class="product-info d-flex align-items-center mt-3">
+                                                    <a class="active mb-0">10</a>
+                                                    <a class="me-2 pe-1">11</a>
+                                                    <a class="me-2 pe-1">12</a>
+                                                    <a class="me-2 pe-1">13</a>
                                                 </div>
                                                 <div class="d-flex align-items-center">
-                                                    <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                                    <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                                    <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                                    <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xl-12">
-                                        <div class="product d-flex flex-row align-items-center justify-content-center mb-product">
-                                            <div class="img-icon">
+                                        <div class="product d-flex align-items-center justify-content-center gap-4">
+                                            <div class="product-image">
                                                 <img src="images/shop/featured_product_3.png" alt="New" class="img-fluid">
                                             </div>
-                                            <div class="product-details mt-0 ps-product">
+                                            <div class="product-details mt-0">
                                                 <div class="product-rating">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -234,20 +284,20 @@
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star empty"></i>
                                                 </div>
-                                                <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                                <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
                                                 <div class="d-flex align-items-center mt-5">
-                                                    <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                                    <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                                    <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                                    <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xl-12">
-                                        <div class="product d-flex flex-row justify-content-center mb-xl-product">
-                                            <div class="img-icon">
+                                        <div class="product d-flex justify-content-center gap-4">
+                                            <div class="product-image">
                                                 <img src="images/shop/featured_product_4.png" alt="New">
                                             </div>
-                                            <div class="product-details mt-0 ps-product">
+                                            <div class="product-details mt-0">
                                                 <div class="product-rating">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
@@ -255,17 +305,16 @@
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star empty"></i>
                                                 </div>
-                                                <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
-                                                <div class="d-flex align-items-center mt-3 mb-base">
-                                                    <p class="circle-rate mb-0">10</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">11</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">12</p>
-                                                    <p class="text-year-t mb-0 me-2 pe-1">13</p>
-
+                                                <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                                <div class="product-info d-flex align-items-center mt-3">
+                                                    <a class="active mb-0">10</a>
+                                                    <a class="me-2 pe-1">11</a>
+                                                    <a class="me-2 pe-1">12</a>
+                                                    <a class="me-2 pe-1">13</a>
                                                 </div>
                                                 <div class="d-flex align-items-center">
-                                                    <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                                    <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                                    <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                                    <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -274,9 +323,9 @@
                             </div>
                             <div class="col-xl-4 col-md-6 d-flex align-items-end">
                                 <div class="product mb-5 mb-xl-0">
-                                    <div class="img-icon">
+                                    <div class="product-image">
                                         <img src="images/shop/featured_product_5.png" alt="Best Seller" class="img-fluid">
-                                        <div class="right-icon"><i class="far fa-heart"></i></div>
+                                        <a class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
                                     <div class="product-details">
                                         <div class="product-rating">
@@ -286,17 +335,17 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-2 pb-1">Gold 585</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
+                                        <p class="fs-6 lh-1 mb-2 pb-1">Gold 585</p>
+                                        <p class="fs-6 lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="d-flex align-items-center">
                                                 <p class="circle-rate mb-0">16</p>
-                                                <p class="text-year-t mb-0 me-2 pe-1">17</p>
+                                                <p class="mb-0 me-2 pe-1">17</p>
                                             </div>
                                             <div class="d-flex align-items-center">
-                                                <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-4">$2700</p></a>
-                                                <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                                <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-4">$2700</p></a>
+                                                <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -304,10 +353,10 @@
                             </div>
                             <div class="col-xl-4 col-md-6">
                                 <div class="product mb-5 mb-xl-0">
-                                    <div class="img-icon">
+                                    <div class="product-image">
                                         <img src="images/shop/featured_product_6.png" alt="Best Seller" class="img-fluid">
-                                        <div class="left-icon text-uppercase">vip</div>
-                                        <div class="right-icon"><i class="far fa-heart"></i></div>
+                                        <div class="onvip">vip</div>
+                                        <a class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
                                     <div class="product-details">
                                         <div class="product-rating">
@@ -317,18 +366,18 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-2 pb-1">Gold 585</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
+                                        <p class="fs-6 lh-1 mb-2 pb-1">Gold 585</p>
+                                        <p class="fs-6 lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="d-flex align-items-center">
                                                 <p class="circle-rate mb-0">45</p>
-                                                <p class="text-year-t mb-0 me-2 pe-1">50</p>
+                                                <p class="mb-0 me-2 pe-1">50</p>
                                             </div>
                                             <div class="d-flex align-items-center">
                                                 <p class="product-non-rating">$2700</p>
-                                                <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-4">$2700</p></a>
-                                                <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                                <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-4">$2700</p></a>
+                                                <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -340,14 +389,14 @@
 
                 <!-- Parallax
                 ============================================= -->
-                <div class="section parallax-about">
+                <div class="section bg-cover" style="background-image: url(./images/about_parallax.png);">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-4 offset-xl-8 col-md-5 offset-md-7">
-                                <h2 class="heading-font lh-sm pb-1 mb-5 text-md-center">Tiara with a discount when buying wedding rings</h2>
-                                <p class="body-font fs-4 text-white pb-1 mb-5 text-md-center">Only this summer</p>
+                                <h2 class="lh-sm pb-1 mb-5 text-white">Tiara with a discount when buying wedding rings</h2>
+                                <p class="fs-4 text-white pb-1 mb-5">Only this summer</p>
                                 <div class="d-flex justify-content-center justify-content-md-start">
-                                    <a href="#" class="text-theme text-uppercase">shop now</a>
+                                    <a href="#" class="text-primary text-uppercase">shop now</a>
                                 </div>
                             </div>
                         </div>
@@ -358,14 +407,13 @@
                 ============================================= -->
                 <div class="section">
                     <div class="container">
-                        <h2 class="heading-font text-title lh-1 text-capitalize pb-1 mb-5 text-xl-center">best seller</h2>
+                        <h2 class="lh-1 text-capitalize pb-1 mb-5">best seller</h2>
                         <div class="row">
                             <div class="col-xl-4 d-flex justify-content-center">
                                 <div class="product mb-5 mb-xl-0">
-                                    <div class="img-icon">
+                                    <div class="product-image">
                                         <img src="images/shop/seller_1.png" alt="Best Seller" class="img-fluid">
-                                        <div class="left-icon text-uppercase">vip</div>
-                                        <div class="right-icon"><i class="far fa-heart"></i></div>
+                                        <a class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
                                     <div class="product-details">
                                         <div class="product-rating">
@@ -375,22 +423,23 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-2 pb-1">Gold 585</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
+                                        <p class="fs-6 lh-1 mb-2 pb-1">Gold 585</p>
+                                        <p class="fs-6 lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
                                         <div class="d-flex justify-content-end align-items-center">
-                                            <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-4">$2700</p></a>
-                                            <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                            <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-4">$2700</p></a>
+                                            <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                         </div>
                                     </div>
+                                    <div class="onvip">vip</div>
                                 </div>
                             </div>
 
                             <div class="col-xl-4 d-flex justify-content-center">
                                 <div class="product mb-5 mb-xl-0">
-                                    <div class="img-icon">
+                                    <div class="product-image">
                                         <img src="images/shop/seller_2.png" alt="Best Seller" class="img-fluid">
-                                        <div class="right-icon"><i class="far fa-heart"></i></div>
+                                        <a class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
                                     <div class="product-details">
                                         <div class="product-rating">
@@ -400,17 +449,17 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-2 pb-1">Gold 585</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
+                                        <p class="fs-6 lh-1 mb-2 pb-1">Gold 585</p>
+                                        <p class="fs-6 lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="d-flex align-items-center">
                                                 <p class="circle-rate mb-0">16</p>
-                                                <p class="text-year-t mb-0 me-2 pe-1">17</p>
+                                                <p class="mb-0 me-2 pe-1">17</p>
                                             </div>
                                             <div class="d-flex align-items-center">
-                                                <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-4">$2700</p></a>
-                                                <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                                <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-4">$2700</p></a>
+                                                <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -419,10 +468,9 @@
 
                             <div class="col-xl-4 d-flex justify-content-center">
                                 <div class="product mb-5 pb-5">
-                                    <div class="img-icon">
+                                    <div class="product-image">
                                         <img src="images/shop/seller_3.png" alt="Best Seller" class="img-fluid">
-                                        <div class="left-icon text-uppercase">vip</div>
-                                        <div class="right-icon"><i class="far fa-heart"></i></div>
+                                        <a class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
                                     <div class="product-details">
                                         <div class="product-rating">
@@ -432,47 +480,48 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-2 pb-1">Gold 585</p>
-                                        <p class="body-font fs-6 text-year-t lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-3">Combined gold ring with diamonds</p>
+                                        <p class="fs-6 lh-1 mb-2 pb-1">Gold 585</p>
+                                        <p class="fs-6 lh-1 mb-3">Diamond (19 - 0.2 ct)</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="d-flex align-items-center">
                                                 <p class="circle-rate mb-0">45</p>
-                                                <p class="text-year-t mb-0 me-2 pe-1">50</p>
+                                                <p class="mb-0 me-2 pe-1">50</p>
                                             </div>
                                             <div class="d-flex align-items-center">
-                                                <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-4">$2700</p></a>
-                                                <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                                <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-4">$2700</p></a>
+                                                <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="onvip">vip</div>
                                 </div>
                             </div>
 
                             <div class="col-xl-8">
-                                <div class="ads">
-                                    <div class="ads-img">
-                                        <img src="images/ads/ads_1.png" alt="Ads Image" class="img-fluid">
+                                <div class="ads ads1">
+                                    <div class="ads-bg">
+                                        <div class="ads-bg-img" style="background-image: url(./images/ads/ads_1.png);"></div>
                                     </div>
-                                    <div class="discount-text">
-                                        <h2 class="heading-font lh-sm mb-1 mb-sm-5 text-md-center">50% discount on jewelry for men</h2>
-                                        <p class="body-font fs-4 text-white lh-1 mb-1 mb-sm-5 text-md-center">Only this summer</p>
+                                    <div class="ads-body">
+                                        <h2 class="lh-sm mb-1 mb-sm-5">50% discount on jewelry for men</h2>
+                                        <p class="fs-4 text-white lh-1 mb-1 mb-sm-5">Only this summer</p>
                                         <div class="d-flex justify-content-center justify-content-md-start">
-                                            <a href="#" class="text-theme text-uppercase">shop now</a>
+                                            <a href="#" class="text-primary text-uppercase">shop now</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-xl-4 mt-5 mt-xl-0">
-                                <div class="ads d-flex justify-content-center">
-                                    <div class="ads-img">
-                                        <img src="images/shop/featured_product_8.png" alt="Best Seller" class="img-fluid">
+                                <div class="ads ads1">
+                                    <div class="ads-bg">
+                                        <div class="ads-bg-img" style="background-image: url(./images/ads/ads_2.png);"></div>
                                     </div>
-                                    <div class="emotion-text">
-                                        <h2 class="heading-font lh-sm mb-3 mb-sm-5">Precious emotions</h2>
-                                        <p class="body-font fs-4 text-white lh-1 mb-3 mb-sm-5">Only this summer</p>
-                                        <a href="#" class="text-theme text-uppercase">shop now</a>
+                                    <div class="ads-body pe-0">
+                                        <h2 class="text-white lh-sm mb-3 mb-sm-5">Precious emotions</h2>
+                                        <p class="fs-4 text-white lh-1 mb-3 mb-sm-5">Only this summer</p>
+                                        <a href="#" class="text-primary text-uppercase">shop now</a>
                                     </div>
                                 </div>
                             </div>
@@ -483,23 +532,23 @@
 
                 <!-- New
                 ============================================= -->
-                <div class="section-margin-bottom">
+                <div class="section pt-0">
                     <div class="container">
                         <div class="d-flex justify-content-center justify-content-xl-start">
-                            <div class="switch-title mb-5 pb-4 text-xl-center active">
+                            <div class="switch-title mb-5 pb-4 active">
                                 <a href="#">new</a>
                             </div>
-                            <div class="switch-title ms-5 text-xl-center">
+                            <div class="switch-title ms-5">
                                 <a href="#">sale</a>
                             </div>
                         </div>
-                        <div class="row g-0 g-xl-5">
+                        <div class="row g-xl-5">
                             <div class="col-xl-4 col-md-6">
-                                <div class="product d-flex flex-row align-items-center mb-product">
-                                    <div class="img-icon">
+                                <div class="product d-flex align-items-center">
+                                    <div class="product-image">
                                         <img src="images/shop/sale_1.png" alt="New" class="img-fluid">
                                     </div>
-                                    <div class="product-details mt-0 ps-product">
+                                    <div class="product-details mt-0">
                                         <div class="product-rating">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -507,21 +556,21 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
                                         <div class="d-flex align-items-center mt-5">
-                                            <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                            <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                            <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                            <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="product d-flex flex-row align-items-center mb-product">
-                                    <div class="img-icon">
+                                <div class="product d-flex align-items-center">
+                                    <div class="product-image">
                                         <img src="images/shop/sale_2.png" alt="New" class="img-fluid">
                                     </div>
-                                    <div class="product-details mt-0 ps-product">
+                                    <div class="product-details mt-0">
                                         <div class="product-rating">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -529,21 +578,21 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
                                         <div class="d-flex align-items-center mt-5">
-                                            <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                            <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                            <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                            <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="product d-flex flex-row align-items-center mb-product">
-                                    <div class="img-icon">
+                                <div class="product d-flex align-items-center">
+                                    <div class="product-image">
                                         <img src="images/shop/sale_3.png" alt="New" class="img-fluid">
                                     </div>
-                                    <div class="product-details mt-0 ps-product">
+                                    <div class="product-details mt-0">
                                         <div class="product-rating">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -551,21 +600,21 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
                                         <div class="d-flex align-items-center mt-5">
-                                            <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                            <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                            <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                            <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="product d-flex flex-row align-items-center mb-xl-product">
-                                    <div class="img-icon">
+                                <div class="product d-flex align-items-center">
+                                    <div class="product-image">
                                         <img src="images/shop/sale_4.png" alt="New" class="img-fluid">
                                     </div>
-                                    <div class="product-details mt-0 ps-product">
+                                    <div class="product-details mt-0">
                                         <div class="product-rating">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -573,32 +622,10 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
                                         <div class="d-flex align-items-center mt-5">
-                                            <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                            <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4 col-md-6">
-                                <div class="product d-flex flex-row align-items-center mb-xl-product">
-                                    <div class="img-icon">
-                                        <img src="images/shop/sale_5.png" alt="New" class="img-fluid">
-                                    </div>
-                                    <div class="product-details mt-0 ps-product">
-                                        <div class="product-rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star empty"></i>
-                                        </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
-                                        <div class="d-flex align-items-center mt-5">
-                                            <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                            <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                            <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                            <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -606,10 +633,10 @@
 
                             <div class="col-xl-4 col-md-6">
                                 <div class="product d-flex flex-row align-items-center">
-                                    <div class="img-icon">
-                                        <img src="images/shop/sale_6.png" alt="New" class="img-fluid">
+                                    <div class="product-image">
+                                        <img src="images/shop/sale_5.png" alt="New" class="img-fluid">
                                     </div>
-                                    <div class="product-details mt-0 ps-product">
+                                    <div class="product-details mt-0">
                                         <div class="product-rating">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -617,10 +644,32 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star empty"></i>
                                         </div>
-                                        <p class="body-font fs-5 text-title lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                        <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
                                         <div class="d-flex align-items-center mt-5">
-                                            <a href="#"><p class="heading-font fs-4 text-theme lh-1 mb-0 me-5 pe-1">$2700</p></a>
-                                            <a href="#"><span class="fs-5 text-theme lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                            <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                            <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-6">
+                                <div class="product d-flex flex-row align-items-center">
+                                    <div class="product-image">
+                                        <img src="images/shop/sale_6.png" alt="New" class="img-fluid">
+                                    </div>
+                                    <div class="product-details mt-0">
+                                        <div class="product-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star empty"></i>
+                                        </div>
+                                        <p class="fs-5 lh-1 mt-4 mb-1">Combined gold ring with diamonds</p>
+                                        <div class="d-flex align-items-center mt-5">
+                                            <a href="#"><p class="heading-font fs-4 text-primary lh-1 mb-0 me-5 pe-1">$2700</p></a>
+                                            <a href="#"><span class="fs-5 text-primary lh-1"><i class="fas fa-shopping-cart"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -631,23 +680,25 @@
 
                 <!-- Partners
                 ============================================= -->
-                <div class="container">
+                <div class="section pt-0">
+                    <div class="container">
 
-                    <div class="row section-padding-bottom">
-
-                        <div class="col-12">
-                            <div class="logos">
-                                <div class="logo-item"><img src="images/logos/logo1.png" alt="Logo Image" class="img-fluid"></div>
-                                <div class="logo-item"><img src="images/logos/logo2.png" alt="Logo Image" class="img-fluid"></div>
-                                <div class="logo-item"><img src="images/logos/logo3.png" alt="Logo Image" class="img-fluid"></div>
-                                <div class="logo-item"><img src="images/logos/logo4.png" alt="Logo Image" class="img-fluid"></div>
-                                <div class="logo-item"><img src="images/logos/logo5.png" alt="Logo Image" class="img-fluid"></div>
-                                <div class="logo-item"><img src="images/logos/logo6.png" alt="Logo Image" class="img-fluid"></div>
-                            </div>
-                        </div>                            
-
+                        <div class="row section-padding-bottom">
+    
+                            <div class="col-12">
+                                <div class="logos">
+                                    <div class="logo-item"><img src="images/logos/logo1.png" alt="Logo Image" class="img-fluid"></div>
+                                    <div class="logo-item"><img src="images/logos/logo2.png" alt="Logo Image" class="img-fluid"></div>
+                                    <div class="logo-item"><img src="images/logos/logo3.png" alt="Logo Image" class="img-fluid"></div>
+                                    <div class="logo-item"><img src="images/logos/logo4.png" alt="Logo Image" class="img-fluid"></div>
+                                    <div class="logo-item"><img src="images/logos/logo5.png" alt="Logo Image" class="img-fluid"></div>
+                                    <div class="logo-item"><img src="images/logos/logo6.png" alt="Logo Image" class="img-fluid"></div>
+                                </div>
+                            </div>                            
+    
+                        </div>
+    
                     </div>
-
                 </div><!-- #partners -->
 
                 <!-- Our News
@@ -656,44 +707,48 @@
                    <div class="container">
                        <div class="row">
                            <div class="col-xl-3">
-                                <h2 class="heading-font text-title lh-1 text-capitalize pb-1 mb-5 text-xl-center">our news</h2>
-                                <p class="body-font fs-5 fw-light text-title lh-sm text-xl-center mb-5 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br> Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                <h2 class="lh-1 text-capitalize pb-1 mb-5">our news</h2>
+                                <p class="fs-5 fw-light lh-sm mb-5 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br> Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
                                 <div class="pt-5">
                                     <div class="d-flex align-items-center pt-1 justify-content-center justify-content-xl-start">
-                                        <h4 class="body-font fw-light text-title mb-0 me-2 pe-4">01</h4>
+                                        <h4 class="body-font fw-light mb-0 me-2 pe-4">01</h4>
                                         <hr style="width: 4.172rem;" class="my-0 me-2">
-                                        <h4 class="body-font fw-light text-year-t mb-0 ps-4 me-5 pe-2">02</h4>
-                                        <h4 class="body-font fw-light text-year-t mb-0">03</h4>
+                                        <h4 class="body-font fw-light mb-0 ps-4 me-5 pe-2">02</h4>
+                                        <h4 class="body-font fw-light mb-0">03</h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 d-flex align-items-end justify-content-center mt-5">
-                                <div class="post">
-                                    <div class="post-img mb-medium">
+                                <article class="post">
+                                    <div class="post-thumbnail">
                                         <img src="images/shop/news_1.png" alt="Our News" class="img-fluid">
                                     </div>
-                                    <p class="body-font fs-5 fw-light text-title lh-sm mb-3">How to choose a wedding ring if you don't know its size</p>
-                                    <p class="body-font fs-6 fw-light text-year-t lh-1 mb-0">2021 February 17</p>
-                                </div>
+                                    <div class="post-content">
+                                        <p class="fs-5 fw-light lh-sm mb-3">How to choose a wedding ring if you don't know its size</p>
+                                        <p class="fs-6 fw-light lh-1 mb-0">2021 February 17</p>
+                                    </div>
+                                </article>
                             </div>
                             <div class="col-xl-3 d-flex justify-content-center mt-5 mt-xl-0">
                                 <div class="post">
-                                    <div class="post-img">
+                                    <div class="post-thumbnail">
                                         <img src="images/shop/news_2.png" alt="Our News" class="img-fluid">
-                                        <div class="new-text">
-                                            <p class="body-font fs-5 fw-light text-white lh-sm mb-3">How to choose a wedding ring if you don't know its size</p>
-                                            <p class="body-font fs-6 fw-light text-year-t lh-1 mb-0">2021 February 17</p>
-                                        </div>
+                                    </div>
+                                    <div class="post-content position-absolute">
+                                        <p class="fs-5 fw-light text-white lh-sm mb-3">How to choose a wedding ring if you don't know its size</p>
+                                        <p class="fs-6 fw-light lh-1 mb-0">2021 February 17</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 d-flex align-items-end justify-content-center mt-5">
                                 <div class="post">
-                                    <div class="post-img mb-medium">
+                                    <div class="post-thumbnail">
                                         <img src="images/shop/news_3.png" alt="Our News" class="img-fluid">
                                     </div>
-                                    <p class="body-font fs-5 fw-light text-title lh-sm mb-3">How to choose a wedding ring if you don't know its size</p>
-                                    <p class="body-font fs-6 fw-light text-year-t lh-1 mb-0">2021 February 17</p>
+                                    <div class="post-content">
+                                        <p class="fs-5 fw-light lh-sm mb-3">How to choose a wedding ring if you don't know its size</p>
+                                        <p class="fs-6 fw-light lh-1 mb-0">2021 February 17</p>
+                                    </div>
                                 </div>
                             </div>
                        </div>
@@ -702,15 +757,15 @@
 
                <!-- Parallax
                 ============================================= -->
-                <div class="section bg-img" style="background-image: url('images/home_parallax.png');">
+                <div class="section bg-cover" style="background-image: url('images/home_parallax.png');">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-5 offset-xl-6">
-                                <h2 class="heading-font lh-sm pb-1 mb-3 pb-2 text-md-center">Subscribe to the newsletter</h2>
+                                <h2 class="text-white lh-sm pb-1 mb-3 pb-2">Subscribe to the newsletter</h2>
                                 <form action="#" class="mt-4">
-                                    <div class="home-form d-flex flex-row">
-                                        <input type="email" class="parallax-form rounded-0" placeholder="Enter your mail" />
-                                        <button class="btn rounded-circle" type="submit"><i class="fas fa-envelope-square"></i></button>
+                                    <div class="input-group border-bottom pb-2">
+                                        <input type="email" class="form-control form-control-lg rounded-0 bg-transparent" placeholder="Enter your mail" />
+                                        <button class="btn btn-primary btn-sm text-white rounded-circle" type="submit"><i class="fas fa-envelope-square"></i></button>
                                     </div>
                                 </form>
                             </div>
@@ -757,78 +812,79 @@
             <!-- Footer Main
 		    ============================================= -->
             <div id="footer-main">
-                <div class="row widget widget-contact g-0">
-                    <div class="col-md-6 col-xl-3 widget-content widget-left order-0">
-
-                        <a href="#" title="Address">
-                            <p class="body-font lh-1 mb-base fs-5 text-uppercase">our adress</p>
-                            <h3 class="heading-font text-white fw-normal lh-1 mb-base fs-2">New York</h3>
-                            <p class="body-font lh-1 fs-5">5686 Edverano Center</p>
-                        </a>
+                <div class="row">
+                    <div class="col-md-6 col-xl-3 text-center text-md-start">
+                        <p class="lh-1 fs-5 text-uppercase text-white-50">our adress</p>
+                        <h3 class="text-white fw-normal lh-1 fs-2">New York</h3>
+                        <p class="lh-1 fs-5 text-white-50">5686 Edverano Center</p>
                         
                     </div>
 
-                    <div class="col-xl-6 order-1 order-md-2 order-xl-1">
+                    <div class="col-xl-6">
 
                         <div class="row d-flex justify-content-center g-0">
+
                             <div class="col-md-6 col-xl-4 mb-3 mb-md-0">
-                                <div class="widget-content">
-                                    <h6 class="body-font text-white text-uppercase mb-medium">About Us</h5>
-                                    
-                                    <div class="row g-1">
-                                        <div class="col-6 col-xl-7">
-                                            <ul class="list-group mb-2">
-                                                <li><a href="#" class="widget-link">About the brand</a></li>
-                                                <li><a href="#" class="widget-link">Quality</a></li>
-                                                <li><a href="#" class="widget-link">Design</a></li>
-                                                <li><a href="#" class="widget-link">News</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6 col-xl-5">
-                                            <ul class="list-group mb-2">
-                                                <li><a href="#" class="widget-link">Magazine</a></li>
-                                                <li><a href="#" class="widget-link">Contacts</a></li>
-                                                <li><a href="#" class="widget-link">Vacancies</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>                      
+
+                                <div class="widget widget-links text-center text-md-start">
+                                    <div class="widget-content">
+                                        <h5 class="widget-title">About Us</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 col-xl-7">
+                                                <ul class="list-group mb-2">
+                                                    <li><a href="#">About the brand</a></li>
+                                                    <li><a href="#">Quality</a></li>
+                                                    <li><a href="#">Design</a></li>
+                                                    <li><a href="#">News</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-xl-5">
+                                                <ul class="list-group mb-2">
+                                                    <li><a href="#">Magazine</a></li>
+                                                    <li><a href="#">Contacts</a></li>
+                                                    <li><a href="#">Vacancies</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>                      
+                                    </div>
+
                                 </div>
     
                             </div>
     
                             <div class="col-md-6 col-xl-5 offset-xl-1 ps-xl-4 mb-3 mb-md-0">
-    
-                                <div class="widget-content">
-                                    <h6 class="body-font text-white text-uppercase mb-medium">information</h5>
-                                    
-                                    <div class="row g-0">
-                                        <div class="col-6">
-                                            <ul class="list-group mb-2">
-                                                <li><a href="#" class="widget-link">Promotions</a></li>
-                                                <li><a href="#" class="widget-link">Authentication</a></li>
-                                                <li><a href="#" class="widget-link">Gift card</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-group mb-2">
-                                                <li><a href="#" class="widget-link">Terms of use</a></li>
-                                                <li><a href="#" class="widget-link">Shipping and payment</a></li>
-                                                <li><a href="#" class="widget-link">Return and exchange</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>                      
+
+                                <div class="widget widget-links text-center text-md-start">
+                                    <div class="widget-content">    
+                                        <h5 class="widget-title">information</h5>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-group mb-2">
+                                                    <li><a href="#" class="widget-link">Promotions</a></li>
+                                                    <li><a href="#" class="widget-link">Authentication</a></li>
+                                                    <li><a href="#" class="widget-link">Gift card</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul class="list-group mb-2">
+                                                    <li><a href="#" class="widget-link">Terms of use</a></li>
+                                                    <li><a href="#" class="widget-link">Shipping and payment</a></li>
+                                                    <li><a href="#" class="widget-link">Return and exchange</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>                      
+                                    </div>  
                                 </div>
     
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-xl-3 widget-content widget-right order-2 order-md-1 order-xl-2">
-                        <a href="#" title="Address">
-                            <p class="body-font lh-1 mb-3 fs-5 text-uppercase">call now</p>
-                            <h3 class="heading-font text-white fw-normal lh-1 mb-base fs-2">123-456-7890</h3>
-                            <p class="body-font lh-1 fs-5">info@gmail.com</p>
-                        </a>
+                    <div class="col-md-6 col-xl-3 text-center text-md-start">
+                        <p class="lh-1 mb-3 fs-5 text-uppercase text-white-50">call now</p>
+                        <h3 class="text-white fw-normal lh-1 fs-2">123-456-7890</h3>
+                        <p class="lh-1 fs-5 text-white-50">info@gmail.com</p>
                     </div>
                 </div>
 
@@ -837,7 +893,7 @@
             <!-- Footer bottom
             ============================================= -->
             <div id="footer-bottom">
-                <div class="row g-0">
+                <div class="row align-items-center">
                     <div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
                         <div class="widget widget-payment mb-4 mb-lg-0">
                             <div class="payments">
@@ -855,8 +911,8 @@
                             <a href="#" target="_blank" title="Youtube" class="widget-social"><span><i class="fab fa-telegram-plane"></i></span></a>
                         </div>
                     </div>
-                    <div class="col-lg-2 d-flex justify-content-center justify-content-lg-end align-items-center">
-                        <span class="body-font">&copy; Copyright 2021</span>
+                    <div class="col-lg-2 text-center text-lg-end">
+                        <span class="text-white-50">&copy; Copyright 2021</span>
                     </div>
                 </div>
 
@@ -865,10 +921,6 @@
         </footer><!-- #footer -->
 
     </div>
-
-    <!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
 
 
     <!-- External JavaScripts

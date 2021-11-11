@@ -33,7 +33,7 @@
 
         <!-- Header
         ============================================= -->
-        <header id="header" class="header-bg">
+        <header id="header" class="bg-dark">
 
             <div id="header-wrap">
 
@@ -48,7 +48,7 @@
                         </a>
 
                         <!-- Navbar -->
-                        <div class="top-btn-bar">
+                        <div class="d-flex w-100 pb-4 align-items-center pe-5">
 
                             <!-- Top Links
                             ============================================= -->
@@ -104,7 +104,7 @@
                                 <span class="navbar-toggler-icon"></span>
                         </button> -->
                                                 
-                        <button class="btn navbar-btn toggle-btn" type="button"><img src="images/toggle_btn.png" alt="toggle_img" class="img_fluid"></button>
+                        <button class="btn toggle-btn" type="button"><img src="images/toggle_btn.png" alt="toggle_img" class="img_fluid"></button>
                         
                     </div>
 
@@ -132,24 +132,22 @@
 
                 <div class="section">
                     <div class="container">
-                        <h1 class="contact-title text-title">Contact Us</h1>
-                        <div class="row d-flex align-items-center">
+                        <div id="page-title">
+                            <h1 class="title mb-2">Contact Us</h1>
+                        </div>
+                        <div class="row align-items-center">
                             <div class="col-lg-5">
-                                <div class="contact">
-                                    <p class="contact-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                                    <div class="d-flex flex-column">
-                                        <a href="#" class="contact-detail"><p class="contact-phone heading-font fs-3">+1 123-456-7890</p></a>
-                                        <a href="#" class="contact-detail"><p  class="contact-mail body-font fs-4">info@gmail.com</p></a>
-                                        <a href="#" class="contact-detail"><p  class="contact-address body-font fs-5 mb-0">New York 5686 Edverano Center</p></a>
-                                    </div>
-                                </div>
+                                <p class="fs-4 fw-light mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <a href="#" class="d-block"><p class="contact-phone heading-font fs-3 mb-2">+1 123-456-7890</p></a>
+                                <a href="#" class="d-block"><p  class="contact-mail body-font fs-4 mb-2">info@gmail.com</p></a>
+                                <a href="#" class="d-block"><p  class="contact-address body-font fs-5 mb-0">New York 5686 Edverano Center</p></a>
                             </div>
                             <div class="col-lg-4 offset-lg-3">
                                 <form action="#" class="mb-0">
-                                    <input type="text" class="contact-form-control rounded-0 mb-2" placeholder="Your name">
-                                    <input type="text" class="contact-form-control rounded-0 mb-2" placeholder="Your email address">
-                                    <textarea class="contact-form-control rounded-0 mb-form-text" id="contactComment" style="height: 7rem;" placeholder="Message"></textarea>
-                                    <button type="submit" class="btn btn-primary form-btn text-white fw-semi-bold fs-6 body-font">Send</button>
+                                    <input type="text" class="form-control border-bottom mb-2" placeholder="Your name">
+                                    <input type="text" class="form-control border-bottom  mb-2" placeholder="Your email address">
+                                    <textarea class="form-control border-bottom mb-4" id="contactComment" style="height: 7rem;" placeholder="Message"></textarea>
+                                    <button type="submit" class="btn btn-primary text-white fw-semi-bold fs-6 body-font">Send</button>
                                 </form>
                             </div>
                         </div>
@@ -183,8 +181,8 @@
         </div>
         
         <!-- Footer
-        ============================================= -->
-        <footer id="footer">
+		============================================= -->
+		<footer id="footer">
             
             <!-- Footer Header
             ============================================= -->
@@ -193,80 +191,81 @@
             </div><!-- Footer Header -->
 
             <!-- Footer Main
-            ============================================= -->
+		    ============================================= -->
             <div id="footer-main">
-                <div class="row widget widget-contact g-0">
-                    <div class="col-md-6 col-xl-3 widget-content widget-left order-0">
-
-                        <a href="#" title="Address">
-                            <p class="body-font lh-1 mb-base fs-5 text-uppercase">our adress</p>
-                            <h3 class="heading-font text-white fw-normal lh-1 mb-base fs-2">New York</h3>
-                            <p class="body-font lh-1 fs-5">5686 Edverano Center</p>
-                        </a>
+                <div class="row">
+                    <div class="col-md-6 col-xl-3 text-center text-md-start">
+                        <p class="lh-1 fs-5 text-uppercase text-white-50">our adress</p>
+                        <h3 class="text-white fw-normal lh-1 fs-2">New York</h3>
+                        <p class="lh-1 fs-5 text-white-50">5686 Edverano Center</p>
                         
                     </div>
 
-                    <div class="col-xl-6 order-1 order-md-2 order-xl-1">
+                    <div class="col-xl-6">
 
                         <div class="row d-flex justify-content-center g-0">
+
                             <div class="col-md-6 col-xl-4 mb-3 mb-md-0">
-                                <div class="widget-content">
-                                    <h6 class="body-font text-white text-uppercase mb-medium">About Us</h5>
-                                    
-                                    <div class="row g-1">
-                                        <div class="col-6 col-xl-7">
-                                            <ul class="list-group mb-2">
-                                                <li><a href="#" class="widget-link">About the brand</a></li>
-                                                <li><a href="#" class="widget-link">Quality</a></li>
-                                                <li><a href="#" class="widget-link">Design</a></li>
-                                                <li><a href="#" class="widget-link">News</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6 col-xl-5">
-                                            <ul class="list-group mb-2">
-                                                <li><a href="#" class="widget-link">Magazine</a></li>
-                                                <li><a href="#" class="widget-link">Contacts</a></li>
-                                                <li><a href="#" class="widget-link">Vacancies</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>                      
+
+                                <div class="widget widget-links text-center text-md-start">
+                                    <div class="widget-content">
+                                        <h5 class="widget-title">About Us</h5>
+                                        <div class="row">
+                                            <div class="col-md-6 col-xl-7">
+                                                <ul class="list-group mb-2">
+                                                    <li><a href="#">About the brand</a></li>
+                                                    <li><a href="#">Quality</a></li>
+                                                    <li><a href="#">Design</a></li>
+                                                    <li><a href="#">News</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-xl-5">
+                                                <ul class="list-group mb-2">
+                                                    <li><a href="#">Magazine</a></li>
+                                                    <li><a href="#">Contacts</a></li>
+                                                    <li><a href="#">Vacancies</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>                      
+                                    </div>
+
                                 </div>
     
                             </div>
     
                             <div class="col-md-6 col-xl-5 offset-xl-1 ps-xl-4 mb-3 mb-md-0">
-    
-                                <div class="widget-content">
-                                    <h6 class="body-font text-white text-uppercase mb-medium">information</h5>
-                                    
-                                    <div class="row g-0">
-                                        <div class="col-6">
-                                            <ul class="list-group mb-2">
-                                                <li><a href="#" class="widget-link">Promotions</a></li>
-                                                <li><a href="#" class="widget-link">Authentication</a></li>
-                                                <li><a href="#" class="widget-link">Gift card</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-group mb-2">
-                                                <li><a href="#" class="widget-link">Terms of use</a></li>
-                                                <li><a href="#" class="widget-link">Shipping and payment</a></li>
-                                                <li><a href="#" class="widget-link">Return and exchange</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>                      
+
+                                <div class="widget widget-links text-center text-md-start">
+                                    <div class="widget-content">    
+                                        <h5 class="widget-title">information</h5>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-group mb-2">
+                                                    <li><a href="#" class="widget-link">Promotions</a></li>
+                                                    <li><a href="#" class="widget-link">Authentication</a></li>
+                                                    <li><a href="#" class="widget-link">Gift card</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul class="list-group mb-2">
+                                                    <li><a href="#" class="widget-link">Terms of use</a></li>
+                                                    <li><a href="#" class="widget-link">Shipping and payment</a></li>
+                                                    <li><a href="#" class="widget-link">Return and exchange</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>                      
+                                    </div>  
                                 </div>
     
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-xl-3 widget-content widget-right order-2 order-md-1 order-xl-2">
-                        <a href="#" title="Address">
-                            <p class="body-font lh-1 mb-3 fs-5 text-uppercase">call now</p>
-                            <h3 class="heading-font text-white fw-normal lh-1 mb-base fs-2">123-456-7890</h3>
-                            <p class="body-font lh-1 fs-5">info@gmail.com</p>
-                        </a>
+                    <div class="col-md-6 col-xl-3 text-center text-md-start">
+                        <p class="lh-1 mb-3 fs-5 text-uppercase text-white-50">call now</p>
+                        <h3 class="text-white fw-normal lh-1 fs-2">123-456-7890</h3>
+                        <p class="lh-1 fs-5 text-white-50">info@gmail.com</p>
                     </div>
                 </div>
 
@@ -275,7 +274,7 @@
             <!-- Footer bottom
             ============================================= -->
             <div id="footer-bottom">
-                <div class="row g-0">
+                <div class="row align-items-center">
                     <div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
                         <div class="widget widget-payment mb-4 mb-lg-0">
                             <div class="payments">
@@ -293,8 +292,8 @@
                             <a href="#" target="_blank" title="Youtube" class="widget-social"><span><i class="fab fa-telegram-plane"></i></span></a>
                         </div>
                     </div>
-                    <div class="col-lg-2 d-flex justify-content-center justify-content-lg-end align-items-center">
-                        <span class="body-font">&copy; Copyright 2021</span>
+                    <div class="col-lg-2 text-center text-lg-end">
+                        <span class="text-white-50">&copy; Copyright 2021</span>
                     </div>
                 </div>
 

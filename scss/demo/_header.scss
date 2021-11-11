@@ -21,7 +21,7 @@
 
 	// Transparent header
 	&.transparent-header {
-		background-color: $third-color;
+		background-color: #100c0a;
 		z-index: 199;
 
 		@include media-breakpoint-up(xl) {
