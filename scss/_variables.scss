@@ -14,7 +14,7 @@
 
 $theme-color:                   #c4a795;
 $body-color:                    #100c0a;
-$heading-color:                 #100c0a;
+$headings-color:                 #100c0a;
 
 
 //-------------------- Font Families --------------------//
@@ -30,7 +30,7 @@ $light:                         #f4f4f4;
 $dark:                          #100c0a;
 
 // Link
-$link-color:                    $heading-color;
+$link-color:                    $headings-color;
 $link-decoration:				        none;
 $link-hover-color:				      $theme-color;
 
@@ -130,7 +130,7 @@ $primary-menu-font-spacing:     0;
 
 // top Button
 $top-btn-font-size:        			1.5rem;
-$top-btn-font-color:       			$heading-color;
+$top-btn-font-color:       			$headings-color;
 
 
 //-------------------- Section --------------------//
